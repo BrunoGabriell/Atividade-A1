@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pandemia</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="Https://fonts.googleapis.com/css2?family=Dancing Script" rel="stylesheet">
+    </head>
+    <body>
+       <!--Cabeçalho-->
+       <header>
+       <h2 id ="MarcaPag"> </h2>
+       <!-- Menu-->
+       <nav class= "navegação">
+           <ul class = "nav-lista">
+               <li class = "nav-lista-item"> 
+                   <a class = "nav-link" href="index.html"> Home </a>
+              </li>
+              <li class = "nav-lista-item">
+                  <a class = "nav-link" href="fotos.html">Prevenção da Covid-19</a>
+              </li>
+              <li class = "nav-lista-item">
+                  <a class = "nav-link" href="contato.html">Contato</a>
+              </li>
+    
+           </ul>
+        </nav>
+        <a href="index.html"><img id="logo" src="imagens/logocovid.png"a></a>
+                 
+       </header>
+
+        <form action="XX" method="post">
+            <fieldset >
+                <legend> Contato </legend> <br>
+                <label for="nome">Nome: </label> <br>
+                <input type="text" name= "Nome" id= "nome" size="50px" 
+                required placeholder="Nome completo"> 
+                <br>
+                <br>
+                <label for="dataNascimento">Data Nasc:  </label> <br>
+                 <input type="text" name = "dataNascimento" id="dataNascimento"
+                 placeholder="DD/MM/AA">
+                 <br>
+                 <br>
+                 <label for="sexo"> | Sexo |</label> <br>
+                 <input type="radio" name="sexo" value="F" id="sexoFeminino">
+                 <label for="sexoFeminino">Feminino</label>
+                 <input type="radio"name = "sexo" value="M" id="sexoMasculino">
+                 <label for="sexoMasculino">Masculino</label>
+                 <br>
+                 <br>
+                 <label for="contato">Contato: </label> <br>
+                 <input type="checkbox" name="telefone" id="telefone"> <label for="telefone">Telefone</label>
+                 <input type="checkbox" name="e-mail" id="e-mail"> <label for="e-mail">E-mail</label>
+                 <input type="text" name="contato" id="contato">
+                 <br>
+                 <br>
+                 <br>
+                 <label for="Sintomas">Sintomas</label> <br>
+                 <select name="Sintomas" id="Sintomas">
+                     <option value="banho">Falta de Ar</option>
+                     <option value="hospedagem">Febre</option>
+                     <option value="outrosAssuntos">Perda de paladar</option>
+                    </select>
+                    <br>
+                    <br>
+                    <label for="mensagem"> Outro sintomas ? 
+                        diga para nós oque sente:</label>
+                    <br>
+                    <textarea name="mensagem" id="mensagem" cols="30" rows="5"></textarea>
+                    <br>
+                    <input type="submit" name="btnEnvio" value="Enviar">
+                    &nbsp;
+                    <input type="reset" name="btnReset" value="Limpar">
+                    
+                </fieldset>
+
+        </form>
+        <footer class="rodape">
+            <section class="rodape-secao">
+                <h3>| Entre em contato conosco |</h3>
+                <p>(XX) xxxx - xxxx </p>
+                <p>secuide@vidaimporta.com</p>
+            </section>
+            <section class="rodape-secao">
+                <h3> - Atendimento 24hrs - </h3>
+                <br>
+                <br>
+            </section>
+            <section class="rodape-secao">
+                <h3> | Endereço |</h3>
+                <p>Avenida da saúde</p>
+                <p>São Paulo, SP</p>
+            </section>
+            <p id = "copyrigth"> Copyrigth &copy; 2021. </p>
+            <p> Bruno Gabriel Silva de Souza </p>
+            <p> RGM : 26047845 </p>
+            <p>Turma : Análise e Desenvolvimento de Sistemas - 1K – 2021 (Noturno) Prof° Katia Milani Lara Bossi.</p>
+         </footer>
+</body>
+</html>
